@@ -130,6 +130,34 @@ impl<S: Deref<Target = str>> ModifierSet<S> {
         best
     }
 
+    pub fn old_best_match_in<'a, T>(
+        &self,
+        variants: impl Iterator<Item = (ModifierSet<&'a str>, T)>,
+    ) -> Option<T> {
+        let mut best = None;
+        let mut best_score = None;
+
+        // Find the best table entry with this name.
+        for candidate in variants.filter(|(set, _)| self.is_subset(*set)) {
+            let mut matching = 0;
+            let mut total = 0;
+            for modifier in candidate.0.iter() {
+                if self.contains(modifier.name()) {
+                    matching += 1;
+                }
+                total += 1;
+            }
+
+            let score = (matching, std::cmp::Reverse(total));
+            if best_score.is_none_or(|b| score > b) {
+                best = Some(candidate.1);
+                best_score = Some(score);
+            }
+        }
+
+        best
+    }
+
     /// Whether all modifiers in `self` are also present in `other`.
     /// Ignores whether modifiers are optional or not.
     pub fn is_subset(&self, other: ModifierSet<&str>) -> bool {
@@ -139,7 +167,9 @@ impl<S: Deref<Target = str>> ModifierSet<S> {
     /// Whether all *non-optional* modifiers in `self` are also present in `other`,
     /// optional or not.
     pub fn required_is_subset(&self, other: ModifierSet<&str>) -> bool {
-        self.iter().filter(|m| !m.is_optional()).all(|m| other.contains(m.as_str()))
+        self.iter()
+            .filter(|m| !m.is_optional())
+            .all(|m| other.contains(m.as_str()))
     }
 }
 

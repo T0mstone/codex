@@ -79,6 +79,17 @@ impl Symbol {
         }
     }
 
+    pub fn old_get(
+        &self,
+        modifs: ModifierSet<&str>,
+    ) -> Option<(&'static str, Option<&str>)> {
+        match self {
+            Self::Single(c) => modifs.is_empty().then_some((*c, None)),
+            Self::Multi(list) => modifs
+                .old_best_match_in(list.iter().copied().map(|(m, c, d)| (m, (c, d)))),
+        }
+    }
+
     /// Iterate over the variants of this symbol.
     ///
     /// Each variant is represented by a tuple `(modifiers, value, deprecation)`.
