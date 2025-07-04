@@ -17,34 +17,34 @@ anchor ⚓
 anger 💢
 ant 🐜
 apple
-  .green 🍏
+  .green? 🍏
   .red 🍎
 arm
-  .mech 🦾
+  .mech? 🦾
   .muscle 💪
   .selfie 🤳
 arrow
-  .r.filled ➡
-  .r.hook ↪
-  .r.soon 🔜
-  .l.filled ⬅
+  .r?.filled? ➡
+  .r?.hook ↪
+  .r?.soon 🔜
+  .l.filled? ⬅
   .l.hook ↩
-  .l.back 🔙
-  .l.end 🔚
-  .t.filled ⬆
-  .t.curve ⤴
-  .t.top 🔝
-  .b.filled ⬇
+  .l?.back 🔙
+  .l?.end 🔚
+  .t.filled? ⬆
+  .t?.curve ⤴
+  .t?.top 🔝
+  .b.filled? ⬇
   .b.curve ⤵
   .l.r ↔
-  .l.r.on 🔛
+  .l?.r?.on 🔛
   .t.b ↕
   .bl ↙
   .br ↘
   .tl ↖
   .tr ↗
 arrows
-  .cycle 🔄
+  .cycle? 🔄
 ast *
   .box ✳
 atm 🏧
@@ -65,7 +65,7 @@ baggageclaim 🛄
 baguette 🥖
 balloon 🎈
 ballot
-  .check ☑
+  .check? ☑
 ballotbox 🗳
 banana 🍌
 banjo 🪕
@@ -82,7 +82,7 @@ bathtub 🛀
 battery 🔋
   .low 🪫
 beach
-  .palm 🏝
+  .palm? 🏝
   .umbrella 🏖
 beads 📿
 beans 🫘
@@ -116,7 +116,7 @@ blowfish 🐡
 blueberries 🫐
 boar 🐗
 boat
-  .sail ⛵
+  .sail? ⛵
   .row 🚣
   .motor 🛥
   .speed 🚤
@@ -125,7 +125,7 @@ bolt 🔩
 bomb 💣
 bone 🦴
 book
-  .red 📕
+  .red? 📕
   .blue 📘
   .green 📗
   .orange 📙
@@ -138,7 +138,7 @@ bordercontrol 🛂
 bouquet 💐
 bow 🏹
 bowl
-  .spoon 🥣
+  .spoon? 🥣
   .steam 🍜
 bowling 🎳
 boxing 🥊
@@ -148,26 +148,26 @@ bread 🍞
 brick 🧱
 bride 👰
 bridge
-  .fog 🌁
+  .fog? 🌁
   .night 🌉
 briefcase 💼
 briefs 🩲
 brightness
-  .high 🔆
+  .high? 🔆
   .low 🔅
 broccoli 🥦
 broom 🧹
 brush 🖌
 bubble
-  .speech.r 💬
-  .speech.l 🗨
+  .speech?.r? 💬
+  .speech?.l 🗨
   .thought 💭
-  .anger.r 🗯
+  .anger.r? 🗯
 bubbles 🫧
 bubbletea 🧋
 bucket 🪣
 buffalo
-  .water 🐃
+  .water? 🐃
 bug 🐛
 builder 👷
 burger 🍔
@@ -183,7 +183,7 @@ button 🔲
   .alt 🔳
   .radio 🔘
 cabinet
-  .file 🗄
+  .file? 🗄
 cablecar 🚠
   .small 🚡
 cactus 🌵
@@ -199,7 +199,7 @@ camel 🐫
 camera 📷
   .flash 📸
   .movie 🎥
-  .movie.box 🎦
+  .movie?.box 🎦
   .video 📹
 camping 🏕
 can 🥫
@@ -215,37 +215,37 @@ car 🚗
   .rickshaw 🛺
   .suv 🚙
 card
-  .credit 💳
+  .credit? 💳
   .id 🪪
 cardindex 📇
 carrot 🥕
 cart 🛒
 cassette 📼
 castle
-  .eu 🏰
+  .eu? 🏰
   .jp 🏯
 cat 🐈
   .face 🐱
-  .face.angry 😾
-  .face.cry 😿
-  .face.heart 😻
-  .face.joy 😹
-  .face.kiss 😽
-  .face.laugh 😸
-  .face.shock 🙀
-  .face.smile 😺
-  .face.smirk 😼
+  .face?.angry 😾
+  .face?.cry 😿
+  .face?.heart 😻
+  .face?.joy 😹
+  .face?.kiss 😽
+  .face?.laugh 😸
+  .face?.shock 🙀
+  .face?.smile 😺
+  .face?.smirk 😼
 chain 🔗
 chains ⛓
 chair 🪑
 champagne 🍾
 chart
-  .bar 📊
+  .bar? 📊
   .up 📈
   .down 📉
-  .yen.up 💹
+  .yen.up? 💹
 checkmark
-  .heavy ✔
+  .heavy? ✔
   .box ✅
 cheese 🧀
 cherries 🍒
@@ -253,8 +253,8 @@ chess ♟
 chestnut 🌰
 chicken 🐔
   .baby 🐥
-  .baby.egg 🐣
-  .baby.head 🐤
+  .baby?.egg 🐣
+  .baby?.head 🐤
   .leg 🍗
   .male 🐓
 child 🧒
@@ -266,7 +266,7 @@ church ⛪
 cigarette 🚬
   .not 🚭
 circle
-  .black ⚫
+  .black? ⚫
   .blue 🔵
   .brown 🟤
   .green 🟢
@@ -288,8 +288,8 @@ clip 📎
 clipboard 📋
 clips 🖇
 clock
-  .one 🕐
-  .one.thirty 🕜
+  .one? 🕐
+  .one?.thirty 🕜
   .two 🕑
   .two.thirty 🕝
   .three 🕒
@@ -328,7 +328,7 @@ coat 🧥
   .lab 🥼
 cockroach 🪳
 cocktail
-  .martini 🍸
+  .martini? 🍸
   .tropical 🍹
 coconut 🥥
 coffee ☕
@@ -366,7 +366,7 @@ crutch 🩼
 crystal 🔮
 cucumber 🥒
 cup
-  .straw 🥤
+  .straw? 🥤
 cupcake 🧁
 curling 🥌
 curry 🍛
@@ -375,29 +375,29 @@ customs 🛃
 cutlery 🍴
 cyclone 🌀
 dancing
-  .man 🕺
+  .man? 🕺
   .woman 💃
   .bunny 👯
   .bunny.men 👯‍♂
   .bunny.women 👯‍♀
 darts 🎯
 dash
-  .wave.double 〰
+  .wave?.double? 〰
 deer 🦌
 desert 🏜
 detective 🕵
 diamond
-  .blue 🔷
-  .blue.small 🔹
+  .blue? 🔷
+  .blue?.small 🔹
   .orange 🔶
   .orange.small 🔸
   .dot 💠
 die 🎲
 dino
-  .pod 🦕
+  .pod? 🦕
   .rex 🦖
 disc
-  .cd 💿
+  .cd? 💿
   .dvd 📀
   .mini 💽
 discoball 🪩
@@ -413,7 +413,7 @@ donkey 🫏
 donut 🍩
 door 🚪
 dove
-  .peace 🕊
+  .peace? 🕊
 dragon 🐉
   .face 🐲
 dress 👗
@@ -430,7 +430,7 @@ ear 👂
   .aid 🦻
 egg 🥚
 eighteen
-  .not 🔞
+  .not? 🔞
 elephant 🐘
 elevator 🛗
 elf 🧝
@@ -444,9 +444,9 @@ extinguisher 🧯
 eye 👁
 eyes 👀
 face
-  .grin 😀
+  .grin? 😀
   .angry 😠
-  .angry.red 😡
+  .angry?.red 😡
   .anguish 😧
   .astonish 😲
   .bandage 🤕
@@ -459,7 +459,7 @@ face
   .cover 🤭
   .cowboy 🤠
   .cry 😭
-  .devil.smile 😈
+  .devil.smile? 😈
   .devil.frown 👿
   .diagonal 🫤
   .disguise 🥸
@@ -467,7 +467,7 @@ face
   .dizzy 😵
   .dotted 🫥
   .down 😞
-  .down.sweat 😓
+  .down?.sweat 😓
   .drool 🤤
   .explode 🤯
   .eyeroll 🙄
@@ -491,7 +491,7 @@ face
   .kiss 😗
   .kiss.smile 😙
   .kiss.heart 😘
-  .kiss.blush 😚
+  .kiss?.blush 😚
   .lick 😋
   .lie 🤥
   .mask 😷
@@ -522,7 +522,7 @@ face
   .smile.tear 🥲
   .smirk 😏
   .sneeze 🤧
-  .speak.not 🫢
+  .speak.not? 🫢
   .squint 😆
   .stars 🤩
   .straight 😑
@@ -560,7 +560,7 @@ faith
   .om 🕉
   .orthodox ☦
   .peace ☮
-  .star.dot 🔯
+  .star.dot? 🔯
   .worship 🛐
   .yinyang ☯
 falafel 🧆
@@ -568,14 +568,14 @@ family 👪
 fax 📠
 feather 🪶
 feeding
-  .breast 🤱
+  .breast? 🤱
 fencing 🤺
 ferriswheel 🎡
 filebox 🗃
 filedividers 🗂
 film 🎞
 finger
-  .r 👉
+  .r? 👉
   .l 👈
   .t 👆
   .t.alt ☝
@@ -584,7 +584,7 @@ finger
   .m 🖕
 fingerprint 🫆
 fingers
-  .cross 🤞
+  .cross? 🤞
   .pinch 🤌
   .snap 🫰
 fire 🔥
@@ -595,25 +595,25 @@ fish 🐟
   .tropical 🐠
 fishing 🎣
 fist
-  .front 👊
+  .front? 👊
   .r 🤜
   .l 🤛
   .raised ✊
 flag
-  .black 🏴
+  .black? 🏴
   .white 🏳
   .goal 🏁
   .golf ⛳
   .red 🚩
 flags
-  .jp.crossed 🎌
+  .jp?.crossed? 🎌
 flamingo 🦩
 flashlight 🔦
 flatbread 🫓
 fleur ⚜
 floppy 💾
 flower
-  .hibiscus 🌺
+  .hibiscus? 🌺
   .hyacinth 🪻
   .lotus 🪷
   .pink 🌸
@@ -639,7 +639,7 @@ free 🆓
 fries 🍟
 frisbee 🥏
 frog
-  .face 🐸
+  .face? 🐸
 fuelpump ⛽
 garlic 🧄
 gear ⚙
@@ -650,14 +650,14 @@ ginger 🫚
 giraffe 🦒
 girl 👧
 glass
-  .clink 🥂
+  .clink? 🥂
   .milk 🥛
   .pour 🫗
   .tumbler 🥃
 glasses 👓
   .sun 🕶
 globe
-  .am 🌎
+  .am? 🌎
   .as.au 🌏
   .eu.af 🌍
   .meridian 🌐
@@ -670,7 +670,7 @@ goose 🪿
 gorilla 🦍
 grapes 🍇
 guard
-  .man 💂
+  .man? 💂
 guitar 🎸
 gymnastics 🤸
 haircut 💇
@@ -680,10 +680,10 @@ hammer 🔨
   .wrench 🛠
 hamsa 🪬
 hamster
-  .face 🐹
+  .face? 🐹
 hand
-  .raised ✋
-  .raised.alt 🤚
+  .raised? ✋
+  .raised?.alt 🤚
   .r 🫱
   .l 🫲
   .t 🫴
@@ -694,7 +694,7 @@ hand
   .part 🖖
   .peace ✌
   .pinch 🤏
-  .pushing.l 🫷
+  .pushing.l? 🫷
   .pushing.r 🫸
   .rock 🤘
   .splay 🖐
@@ -708,7 +708,7 @@ handholding 🧑‍🤝‍🧑
   .woman.man 👫
   .woman.woman 👭
 hands
-  .folded 🙏
+  .folded? 🙏
   .palms 🤲
   .clap 👏
   .heart 🫶
@@ -718,7 +718,7 @@ hands
 harp 🪉
 hash #
 hat
-  .ribbon 👒
+  .ribbon? 👒
   .top 🎩
 headphone 🎧
 heart ❤
@@ -748,7 +748,7 @@ hedgehog 🦔
 helicopter 🚁
 helix 🧬
 helmet
-  .cross ⛑
+  .cross? ⛑
   .military 🪖
 hippo 🦛
 hockey 🏑
@@ -757,7 +757,7 @@ honey 🍯
 hongbao 🧧
 hook 🪝
 horn
-  .postal 📯
+  .postal? 📯
 horse 🐎
   .carousel 🎠
   .face 🐴
@@ -835,7 +835,7 @@ label 🏷
 lacrosse 🥍
 ladder 🪜
 lamp
-  .diya 🪔
+  .diya? 🪔
 laptop 💻
 a 🅰
 ab 🆎
@@ -843,9 +843,9 @@ b 🅱
 cl 🆑
 o 🅾
 leaf
-  .clover.three ☘
+  .clover.three? ☘
   .clover.four 🍀
-  .fall 🍂
+  .fall? 🍂
   .herb 🌿
   .maple 🍁
   .wind 🍃
@@ -855,7 +855,7 @@ leg 🦵
 lemon 🍋
 leopard 🐆
 letter
-  .love 💌
+  .love? 💌
 liberty 🗽
 lightbulb 💡
 lightning ⚡
@@ -877,21 +877,21 @@ lungs 🫁
 mage 🧙
 magnet 🧲
 magnify
-  .r 🔎
+  .r? 🔎
   .l 🔍
 mahjong
-  .dragon.red 🀄
+  .dragon?.red? 🀄
 mail ✉
   .arrow 📩
 mailbox
-  .closed.empty 📪
-  .closed.full 📫
-  .open.empty 📭
+  .closed?.empty? 📪
+  .closed?.full 📫
+  .open.empty? 📭
   .open.full 📬
 mammoth 🦣
 mango 🥭
 map
-  .world 🗺
+  .world? 🗺
   .jp 🗾
 maracas 🪇
 martialarts 🥋
@@ -901,7 +901,7 @@ matryoshka 🪆
 meat 🥩
   .bone 🍖
 medal
-  .first 🥇
+  .first? 🥇
   .second 🥈
   .third 🥉
   .sports 🏅
@@ -919,7 +919,7 @@ milkyway 🌌
 mirror 🪞
 mixer 🎛
 money
-  .bag 💰
+  .bag? 💰
   .dollar 💵
   .euro 💶
   .pound 💷
@@ -927,22 +927,22 @@ money
   .wings 💸
 monkey 🐒
   .face 🐵
-  .hear.not 🙉
-  .see.not 🙈
-  .speak.not 🙊
+  .hear.not? 🙉
+  .see.not? 🙈
+  .speak.not? 🙊
 moon
-  .crescent 🌙
+  .crescent? 🌙
   .full 🌕
-  .full.face 🌝
+  .full?.face 🌝
   .new 🌑
   .new.face 🌚
-  .wane.one 🌖
-  .wane.two 🌗
-  .wane.three.face 🌜
-  .wane.three 🌘
-  .wax.one 🌒
+  .wane.one? 🌖
+  .wane?.two 🌗
+  .wane.three?.face 🌜
+  .wane?.three 🌘
+  .wax.one? 🌒
   .wax.two 🌓
-  .wax.two.face 🌛
+  .wax.two?.face 🌛
   .wax.three 🌔
 moose 🫎
 mortarboard 🎓
@@ -964,13 +964,13 @@ museum 🏛
 mushroom 🍄
 musicalscore 🎼
 nails
-  .polish 💅
+  .polish? 💅
 namebadge 📛
 nazar 🧿
 necktie 👔
 needle 🪡
 nest
-  .empty 🪹
+  .empty? 🪹
   .eggs 🪺
 new 🆕
 newspaper 📰
@@ -1005,7 +1005,7 @@ page 📄
   .pencil 📝
 pager 📟
 pages
-  .tabs 📑
+  .tabs? 📑
 painting 🖼
 palette 🎨
 pancakes 🥞
@@ -1024,7 +1024,7 @@ pear 🍐
 pedestrian 🚶
   .not 🚷
 pen
-  .ball 🖊
+  .ball? 🖊
   .fountain 🖋
 pencil ✏
 penguin 🐧
@@ -1080,9 +1080,9 @@ planet 🪐
 plant 🪴
 plaster 🩹
 plate
-  .cutlery 🍽
+  .cutlery? 🍽
 playback
-  .down ⏬
+  .down? ⏬
   .eject ⏏
   .forward ⏩
   .pause ⏸
@@ -1098,14 +1098,14 @@ playback
   .toggle ⏯
   .up ⏫
 playingcard
-  .flower 🎴
+  .flower? 🎴
   .joker 🃏
 plunger 🪠
 policeofficer 👮
 poo 💩
 popcorn 🍿
 post
-  .eu 🏤
+  .eu? 🏤
   .jp 🏣
 postbox 📮
 potato 🥔
@@ -1116,12 +1116,12 @@ present 🎁
 pretzel 🥨
 printer 🖨
 prints
-  .foot 👣
+  .foot? 👣
   .paw 🐾
 prohibited 🚫
 projector 📽
 pumpkin
-  .lantern 🎃
+  .lantern? 🎃
 purse 👛
 quest ❓
   .white ❔
@@ -1164,7 +1164,7 @@ salad 🥗
 salt 🧂
 sandwich 🥪
 santa
-  .man 🎅
+  .man? 🎅
   .woman 🤶
 satdish 📡
 satellite 🛰
@@ -1185,13 +1185,13 @@ seedling 🌱
 shark 🦈
 sheep 🐑
 shell
-  .spiral 🐚
+  .spiral? 🐚
 shield 🛡
 ship 🚢
   .cruise 🛳
   .ferry ⛴
 shirt
-  .sports 🎽
+  .sports? 🎽
   .t 👕
 shoe 👞
   .ballet 🩰
@@ -1200,7 +1200,7 @@ shoe 👞
   .hike 🥾
   .ice ⛸
   .roller 🛼
-  .sandal.heel 👡
+  .sandal.heel? 👡
   .ski 🎿
   .sneaker 👟
   .tall 👢
@@ -1214,7 +1214,7 @@ shrimp 🦐
   .fried 🍤
 shrine ⛩
 sign
-  .crossing 🚸
+  .crossing? 🚸
   .stop 🛑
 silhouette 👤
   .double 👥
@@ -1223,7 +1223,7 @@ silhouette 👤
 siren 🚨
 skateboard 🛹
 skewer
-  .dango 🍡
+  .dango? 🍡
   .oden 🍢
 skiing ⛷
 skull 💀
@@ -1247,7 +1247,7 @@ sos 🆘
 soup 🍲
 spaghetti 🍝
 sparkle
-  .box ❇
+  .box? ❇
 sparkler 🎇
 sparkles ✨
 speaker 🔈
@@ -1261,10 +1261,10 @@ splatter 🫟
 sponge 🧽
 spoon 🥄
 square
-  .black ⬛
-  .black.tiny ▪
-  .black.small ◾
-  .black.medium ◼
+  .black? ⬛
+  .black?.tiny ▪
+  .black?.small ◾
+  .black?.medium ◼
   .white ⬜
   .white.tiny ▫
   .white.small ◽
@@ -1285,7 +1285,7 @@ star ⭐
   .shoot 🌠
 stethoscope 🩺
 store
-  .big 🏬
+  .big? 🏬
   .small 🏪
 strawberry 🍓
 suit
@@ -1330,10 +1330,10 @@ testtube 🧪
 thermometer 🌡
 thread 🧵
 thumb
-  .up 👍
+  .up? 👍
   .down 👎
 ticket
-  .event 🎟
+  .event? 🎟
   .travel 🎫
 tiger 🐅
   .face 🐯
@@ -1348,11 +1348,11 @@ tooth 🦷
 toothbrush 🪥
 tornado 🌪
 tower
-  .tokyo 🗼
+  .tokyo? 🗼
 trackball 🖲
 tractor 🚜
 trafficlight
-  .v 🚦
+  .v? 🚦
   .h 🚥
 train 🚆
   .car 🚃
@@ -1361,7 +1361,7 @@ train 🚆
   .mono 🚝
   .mountain 🚞
   .speed 🚄
-  .speed.bullet 🚅
+  .speed?.bullet 🚅
   .steam 🚂
   .stop 🚉
   .suspend 🚟
@@ -1369,21 +1369,21 @@ train 🚆
   .tram.car 🚋
 transgender ⚧
 tray
-  .inbox 📥
+  .inbox? 📥
   .mail 📨
   .outbox 📤
 tree
-  .deciduous 🌳
+  .deciduous? 🌳
   .evergreen 🌲
   .leafless 🪾
   .palm 🌴
   .xmas 🎄
 triangle
-  .r ▶
+  .r? ▶
   .l ◀
   .t 🔼
   .b 🔽
-  .t.red 🔺
+  .t?.red 🔺
   .b.red 🔻
 trident 🔱
 troll 🧌
@@ -1397,7 +1397,7 @@ turtle 🐢
 tv 📺
 ufo 🛸
 umbrella
-  .open ☂
+  .open? ☂
   .closed 🌂
   .rain ☔
   .sun ⛱
@@ -1447,7 +1447,7 @@ yarn 🧶
 yoyo 🪀
 zebra 🦓
 zodiac
-  .aquarius ♒
+  .aquarius? ♒
   .aries ♈
   .cancer ♋
   .capri ♑
